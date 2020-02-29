@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{983C95D6-C622-4E86-8C5D-316C59FC77CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{9BE9B801-E68D-4875-95E3-2A0E74F465BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{9BE9B801-E68D-4875-95E3-2A0E74F465BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{347F3477-6D0D-41EC-BF2A-CB1F866DB245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{9BE9B801-E68D-4875-95E3-2A0E74F465BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE9B801-E68D-4875-95E3-2A0E74F465BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE9B801-E68D-4875-95E3-2A0E74F465BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347F3477-6D0D-41EC-BF2A-CB1F866DB245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347F3477-6D0D-41EC-BF2A-CB1F866DB245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347F3477-6D0D-41EC-BF2A-CB1F866DB245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347F3477-6D0D-41EC-BF2A-CB1F866DB245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{983C95D6-C622-4E86-8C5D-316C59FC77CD} = {81B9F645-7015-421B-8104-B5025081DCC3}
 		{9BE9B801-E68D-4875-95E3-2A0E74F465BF} = {FF2FBB79-098E-4F65-BE13-038705D839A5}
+		{347F3477-6D0D-41EC-BF2A-CB1F866DB245} = {A38851C9-CE02-4F6E-9E13-EC678D817686}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {489A47BB-BD46-43E6-BB51-460FE70EB3CC}
