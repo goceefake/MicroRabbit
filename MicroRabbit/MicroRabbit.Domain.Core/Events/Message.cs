@@ -1,7 +1,7 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using MediatR;
 
 namespace MicroRabbit.Domain.Core.Events
 {

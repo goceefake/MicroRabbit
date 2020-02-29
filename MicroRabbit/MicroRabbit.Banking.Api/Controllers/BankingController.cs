@@ -33,7 +33,7 @@ namespace MicroRabbit.Banking.Api.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] AccountTransfer accountTransfer)
         {
-            _accountService.TransferFunds(accountTransfer);
+            _accountService.Transfer(accountTransfer);
             return Ok(accountTransfer);
         }
     }

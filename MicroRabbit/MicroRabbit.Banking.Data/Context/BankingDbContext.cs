@@ -1,8 +1,8 @@
-﻿using System;
+﻿using MicroRabbit.Banking.Domain.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using MicroRabbit.Banking.Domain.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace MicroRabbit.Banking.Data.Context
 {
@@ -12,6 +12,6 @@ namespace MicroRabbit.Banking.Data.Context
         {
         }
 
-        public DbSet<Accounts> Accounts { get; set; }
+        public DbSet<Account> Accounts { get; set; }
     }
 }

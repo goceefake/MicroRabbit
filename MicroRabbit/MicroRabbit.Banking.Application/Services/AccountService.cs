@@ -22,18 +22,18 @@ namespace MicroRabbit.Banking.Application.Services
             _eventBus = eventBus;
         }
 
-        public IEnumerable<Accounts> GetAccounts()
+        public IEnumerable<Account> GetAccounts()
         {
             return _accountRepository.GetAccounts();
         }
 
-        public void TransferFunds(AccountTransfer accountTransfer)
+        public void Transfer(AccountTransfer accountTransfer)
         {
             var createTransferCommand = new CreateTransferCommand(
-                accountTransfer.FromAccount, 
-                accountTransfer.ToAccount, 
-                accountTransfer.TransferForAmount
-                );
+                accountTransfer.FromAccount,
+                accountTransfer.ToAccount,
+                accountTransfer.TransferAmount
+            );
 
             _eventBus.SendCommand(createTransferCommand);
         }
